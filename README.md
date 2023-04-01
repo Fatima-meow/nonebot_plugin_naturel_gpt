@@ -477,7 +477,9 @@ STEP 2. 运行镜像 (二选一执行)
   - voice: 音源（见 https://learn.microsoft.com/zh-cn/azure/cognitive-services/speech-service/language-support?tabs=tts#supported-languages）
   - pitch: 音调  （见https://learn.microsoft.com/zh-cn/azure/cognitive-services/speech-service/speech-synthesis-markup-voice）
   - rate： 音速
-  
+- 如果需要为输出进一步修改风格/韵律等参数，可以用SSML语言修改
+
+
 ### 编写自定义扩展
 
 > 自行编写扩展需要具有一定的 Python 编程基础，如果您有相关能力可直接参考本仓库 `/extensions/` 目录下的扩展进行编写(非常简单！) 自行编写的扩展安装流程与上述相同

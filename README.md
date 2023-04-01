@@ -468,7 +468,7 @@ STEP 2. 运行镜像 (二选一执行)
 - 说明: 赋予 bot 主动管理记忆的能力，使用时请同时启用 记忆|遗忘 扩展
 
 #### > AzureTTS文本转语音模块 (提供Neuro-sama同款语音输出)
-
+#### > 如果提示未安装依赖，可以用pip install azure-cognitiveservices-speech命令安装
 - 扩展文件: ext_azuretts.py
 - 说明: 赋予bot输出微软语音的能力
 - 配置项（开箱即用，可以不填）:
